@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0a0a1f, #1b1b2f);
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.moon {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, #fff, #b0b0b0);
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.6);
+}
+
+.container {
+    padding: 20px;
+}
+
+.circle {
+    margin: 20px auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #fff;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sections {
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    margin: 12px;
+    padding: 15px 35px;
+    color: white;
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(0, 212, 255, 0.8);
+}
+
+.discord-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #7289da;
+    padding: 10px 25px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.discord-btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.discord-btn:hover {
+    background: #5a6dbf;
+}
+
+.staff-member {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
